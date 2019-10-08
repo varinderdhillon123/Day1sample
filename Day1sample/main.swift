@@ -76,3 +76,32 @@ print(w)
 for i in stride(from: 10, to: 0, by: -1){
     print("Varinder \(i)")
 }
+
+
+var x0 = Int()
+print(x0)
+
+var x00: Int?
+print(x00)
+
+let string1 = "hello"
+let string2 = " there"
+var welcome = string1 + string2
+print(welcome)
+
+
+let str1 = "VArinder"
+var s1 = str1.count
+print(s1)
+
+var s2 = str1.uppercased()
+print(s2)
+
+var s3 = str1.lowercased()
+print(s3)
+
+let str4 = "aaabbccccdeeeab"
+var s4 = str4.count
+print(s4)
+
+
